@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+}
+
+.hero-section .jhalar {
+    height: 250px;
+    width: 250px;
+    margin-bottom: -200px;
+}
+
+.hero-section {
+    /* min-height: 100vh; */
+    /* background-color: #F99501; */
+    background-image: url('./images/orange-background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+}
+
+.hero-section p {
+    font-family: "Salsa", cursive;
+    font-size: 29px;
+    font-weight: 400;
+    font-style: normal;
+    max-width: 400px;
+}
+
+.para-audio {
+    margin-left: 15rem;
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: #FBD8A4;
+}
+
+.audio-container {
+    margin-top: 3rem;
+    background-color: #FBD8A4;
+    border-radius: 30px;
+    padding-left: 10px;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.diya {
+    max-width: 360px;
+    max-height: 360px;
+}
+
+@media all and (width<=840px) {
+    .hero-section p{
+        font-size: 26px;
+    }
+    .audio-container{
+        max-width: max-content;
+    }
+    .mobile-icons{
+        display: none;
+    }
+    .hero-section .jhalar {
+        height: 250px;
+        width: 250px;
+        margin-bottom: -0;
+    }
+
+    .para-audio {
+        margin-left: 1rem;
+        margin-right: 1em;
+    }
+
+    .first-diya{
+        display: block;
+        margin-left: auto;
+    }
+    .second-diya{
+        display: none;
+    }
+}
+
+@media all and (width<=540) {
+    .first-diya{
+        max-width: 100%;
+    }
+}
