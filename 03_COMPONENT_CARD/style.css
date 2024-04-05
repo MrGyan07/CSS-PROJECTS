@@ -36,6 +36,7 @@ a{
 .card h1{
     font-family: 'Big Shoulders Display';
     opacity: 0.9;
+    text-transform: uppercase;
 }
 
 .card img{
